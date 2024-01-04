@@ -1,6 +1,6 @@
 # About the project
 
-* The bcrypt hashing algorithm was used in this project.
+* This project configures cookies and sessions using passport.js.
 
 ### Note
 
@@ -8,20 +8,21 @@
 
 ## Technologies and methods used in the project
 
-* Node.js, Express, EJS, Mongoose were used.
+* Node.js, Express, EJS, Mongoose , passport.js , were used.
   
-### bcyrpt
+### [passport.js](https://www.passportjs.org/)
 
-* bcrypt is an industry standard hashing algorithm.
-* It secures your passwords by performing the Salting + Hashing process continuously.
+* It is a middleware that implements authentication in Express-based web applications.
+* Supports persistent sessions.
+* Offers OAuth.
+* It offers separate modules for each strategy.
+
   
 ## Requirements to run the project
 
 ```
-npm i express
-npm i mongoose
-npm i dotenv
-npm i bcrypt
-npm i ejs
+npm i express mongoose dotenv ejs
+npm i passport passport-local-mongoose
+npm i express-session passport-local
 ```
 Install these packages and run the app.js file in node.
