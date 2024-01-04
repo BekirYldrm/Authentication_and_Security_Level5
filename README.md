@@ -1,7 +1,7 @@
 # About the project
 
-* This project shows how to encrypt user passwords in databases with [mongoose-encryption](https://www.npmjs.com/package/mongoose-encryption).
-* Also, environment variables are used.
+* In this project, encryption with [Hash Functions](https://delinea.com/blog/how-do-passwords-work#:~:text=Password%20hashing%20turns%20your%20password,getting%20access%20to%20your%20passwords.) is shown.
+https://www.npmjs.com/package/md5
 
 ### Note
 
@@ -10,11 +10,11 @@
 ## Technologies and methods used in the project
 
 * Node.js, Express, EJS, Mongoose were used.
+  
+### md5
 
-### `mongoose-encryption`
-
-* It is a simple encryption suite that uses the encryption algorithm called AES.
-* It can authenticate.
+* md5 package was used to generate hash
+* A JavaScript function for hashing messages with MD5.
   
 ## Requirements to run the project
 
@@ -22,7 +22,7 @@
 npm i express
 npm i mongoose
 npm i dotenv
-npm i mongoose-encryption
+npm i md5
 npm i ejs
 ```
 Install these packages and run the app.js file in node.
